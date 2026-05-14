@@ -1,0 +1,408 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Montserrat',sans-serif;
+  background:#07111d;
+  color:#fff;
+}
+
+.container{
+  width:min(1280px,92%);
+  margin:auto;
+}
+
+.header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:#07111d;
+  border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+.header-inner{
+  height:90px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+.shield{
+  width:54px;
+  height:54px;
+  border:2px solid #d9ff43;
+  border-radius:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.logo-title{
+  font-size:22px;
+  font-weight:800;
+}
+
+.logo-sub{
+  color:#d9ff43;
+  font-weight:700;
+}
+
+.nav{
+  display:flex;
+  gap:28px;
+}
+
+.nav a{
+  color:#fff;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:600;
+}
+
+.btn{
+  background:#d9ff43;
+  color:#000;
+  text-decoration:none;
+  padding:16px 24px;
+  border-radius:10px;
+  font-weight:700;
+}
+
+.hero{
+  padding:80px 0;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:1fr 1.2fr;
+  gap:50px;
+  align-items:center;
+}
+
+.line{
+  width:70px;
+  height:4px;
+  background:#d9ff43;
+  display:block;
+  margin-bottom:28px;
+}
+
+.hero-left h1{
+  font-size:78px;
+  line-height:0.95;
+  margin-bottom:24px;
+  font-weight:800;
+}
+
+.hero-left h1 span{
+  color:#d9ff43;
+}
+
+.hero-left p{
+  color:#c8d0d8;
+  font-size:22px;
+  line-height:1.6;
+  margin-bottom:32px;
+}
+
+.hero-icons{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+  margin-bottom:36px;
+}
+
+.icon-card{
+  background:#0d1a28;
+  padding:18px;
+  border-radius:14px;
+}
+
+.hero-buttons{
+  display:flex;
+  gap:18px;
+}
+
+.btn-outline{
+  border:2px solid #fff;
+  color:#fff;
+  text-decoration:none;
+  padding:14px 24px;
+  border-radius:10px;
+  font-weight:700;
+}
+
+.hero-right{
+  display:flex;
+  gap:20px;
+  height:620px;
+}
+
+.sport-card{
+  flex:1;
+  overflow:hidden;
+  border-radius:26px;
+  transform:skew(-8deg);
+  position:relative;
+}
+
+.sport-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transform:skew(8deg) scale(1.15);
+}
+
+.sport-label{
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  background:rgba(0,0,0,0.7);
+  padding:12px 18px;
+  border-radius:12px;
+  color:#d9ff43;
+  font-weight:700;
+  transform:skew(8deg);
+}
+
+section{
+  padding:100px 0;
+}
+
+.why{
+  background:#fff;
+  color:#111;
+}
+
+h2{
+  font-size:48px;
+  margin-bottom:40px;
+}
+
+.why-grid,
+.program-grid,
+.price-grid,
+.footer-grid{
+  display:grid;
+  gap:24px;
+}
+
+.why-grid{
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+}
+
+.why-card,
+.program-card,
+.schedule-box,
+.price-box,
+.price-card{
+  border-radius:24px;
+}
+
+.why-card{
+  background:#f3f5f7;
+  padding:34px;
+}
+
+.program{
+  background:#091524;
+}
+
+.section-top{
+  margin-bottom:50px;
+}
+
+.section-top p{
+  color:#b7c2cd;
+}
+
+.program-grid{
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+}
+
+.program-card{
+  background:#102031;
+  overflow:hidden;
+}
+
+.program-image{
+  height:220px;
+  background-size:cover;
+  background-position:center;
+}
+
+.swimming{
+  background-image:url('https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?q=80&w=1200&auto=format&fit=crop');
+}
+
+.running{
+  background-image:url('https://images.unsplash.com/photo-1552674605-db6ffd4facb5?q=80&w=1200&auto=format&fit=crop');
+}
+
+.fencing{
+  background-image:url('https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1200&auto=format&fit=crop');
+}
+
+.shooting{
+  background-image:url('https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1200&auto=format&fit=crop');
+}
+
+.program-card h3,
+.program-card p{
+  padding:0 24px;
+}
+
+.program-card h3{
+  margin-top:24px;
+  margin-bottom:12px;
+}
+
+.program-card p{
+  color:#c0cad4;
+  padding-bottom:24px;
+}
+
+.schedule{
+  background:#fff;
+  color:#111;
+}
+
+.schedule-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+}
+
+.schedule-box,
+.price-box{
+  background:#f5f7fa;
+  padding:40px;
+}
+
+.schedule-item{
+  display:flex;
+  justify-content:space-between;
+  padding:18px 0;
+  border-bottom:1px solid #ddd;
+}
+
+.price-grid{
+  grid-template-columns:repeat(3,1fr);
+}
+
+.price-card{
+  background:#fff;
+  text-align:center;
+  padding:30px 20px;
+}
+
+.price-card strong{
+  display:block;
+  margin-top:16px;
+  font-size:34px;
+}
+
+.active{
+  border:3px solid #d9ff43;
+}
+
+.trainer-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  align-items:center;
+}
+
+.trainer-photo{
+  height:600px;
+  border-radius:30px;
+  background:url('https://images.unsplash.com/photo-1566753323558-f4e0952af115?q=80&w=1200&auto=format&fit=crop') center/cover;
+}
+
+.trainer-content p{
+  color:#c2ccd5;
+  line-height:1.8;
+  margin-bottom:24px;
+}
+
+.trainer-content ul{
+  margin-bottom:36px;
+}
+
+.trainer-content li{
+  margin-bottom:14px;
+}
+
+.footer{
+  background:#020912;
+}
+
+.footer-grid{
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+}
+
+.footer p{
+  color:#aab6c2;
+  margin-top:12px;
+}
+
+@media(max-width:1100px){
+
+.hero-grid,
+.schedule-grid,
+.trainer-grid{
+grid-template-columns:1fr;
+}
+
+.hero-right{
+height:420px;
+}
+
+}
+
+@media(max-width:850px){
+
+.header-inner{
+flex-direction:column;
+height:auto;
+padding:20px 0;
+gap:20px;
+}
+
+.nav{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero-left h1{
+font-size:52px;
+}
+
+.hero-right{
+flex-direction:column;
+height:auto;
+}
+
+.sport-card{
+height:260px;
+}
+
+.price-grid{
+grid-template-columns:1fr;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+}
