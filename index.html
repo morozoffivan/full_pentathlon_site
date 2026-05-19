@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Пятиборье Kids</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>ПЯТЬ ПОБЕД</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,258 +13,122 @@
 
 <header class="header">
   <div class="container header-inner">
-
     <div class="logo">
-      <img src="./ChatGPT Image 18 мая 2026 г., 12_30_15.png" alt="доготип">
+      <img src="./ChatGPT Image 18 мая 2026 г., 12_30_15.png" alt="Логотип">
     </div>
 
-    <nav class="nav">
+    <!-- Гамбургер меню для мобильных -->
+    <div class="burger" id="burgerBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="nav" id="navMenu">
       <a href="#about">О НАС</a>
       <a href="#programm">ПРОГРАММА</a>
       <a href="#scheduleId">РАСПИСАНИЕ</a>
       <a href="#price">ЦЕНЫ</a>
       <a href="#contactsId">КОНТАКТЫ</a>
+      <a href="#" class="btn mobile-btn">ЗАПИСАТЬСЯ</a>
     </nav>
 
-    <a href="#" class="btn">ЗАПИСАТЬСЯ</a>
-
+    <a href="#" class="btn desktop-btn">ЗАПИСАТЬСЯ</a>
   </div>
 </header>
 
 <section id="about" class="hero">
   <div class="container hero-grid">
-
     <div class="hero-left">
-
       <span class="line"></span>
-
-      <h1>
-        ПЯТИБОРЬЕ <br>
-        <span>ДЛЯ ДЕТЕЙ</span>
-      </h1>
-
-      <p>
-        Разностороннее развитие через современные дисциплины пятиборья.
-      </p>
-
+      <h1>ПЯТИБОРЬЕ <br><span>ДЛЯ ДЕТЕЙ</span></h1>
+      <p>Разностороннее развитие через современные дисциплины пятиборья.</p>
       <div class="hero-icons">
         <div class="icon-card">Физическая подготовка</div>
         <div class="icon-card">Дисциплина</div>
         <div class="icon-card">Характер</div>
         <div class="icon-card">Подготовка к спортивной школе</div>
       </div>
-
       <div class="hero-buttons">
         <a href="#" class="btn">ПЕРВАЯ ТРЕНИРОВКА - БЕСПЛАТНО</a>
       </div>
-
     </div>
-
     <div class="hero-right">
-
       <div class="sport-card">
-        <img src="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?q=80&w=1200&auto=format&fit=crop">
+        <img src="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?q=80&w=1200&auto=format&fit=crop" alt="Плавание">
         <div class="sport-label">ПЛАВАНИЕ</div>
       </div>
-
       <div class="sport-card">
-        <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?q=80&w=1200&auto=format&fit=crop">
+        <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?q=80&w=1200&auto=format&fit=crop" alt="Бег">
         <div class="sport-label">БЕГ</div>
       </div>
-
       <div class="sport-card">
-        <img src="/assets/two_fencer-Photoroom.png">
+        <img src="/assets/two_fencer-Photoroom.png" alt="Фехтование">
         <div class="sport-label">ФЕХТОВАНИЕ</div>
       </div>
-
       <div class="sport-card">
-        <img src="/assets/55275783446_ac83e73ae9_o.jpg">
+        <img src="/assets/55275783446_ac83e73ae9_o.jpg" alt="Стрельба">
         <div class="sport-label">СТРЕЛЬБА</div>
       </div>
-
     </div>
-
   </div>
 </section>
 
 <section class="why">
   <div class="container">
-
     <h2>ПОЧЕМУ ПЯТИБОРЬЕ?</h2>
-
     <div class="why-grid">
-
-      <div class="why-card">
-        <h3>Развивает тело</h3>
-        <p>Координация, выносливость и скорость.</p>
-      </div>
-
-      <div class="why-card">
-        <h3>Учит дисциплине</h3>
-        <p>Дети становятся увереннее и самостоятельнее.</p>
-      </div>
-
-      <div class="why-card">
-        <h3>Командный дух</h3>
-        <p>Тренировки проходят в дружеской атмосфере.</p>
-      </div>
-
-      <div class="why-card">
-        <h3>Интересные занятия</h3>
-        <p>Без скуки и давления.</p>
-      </div>
-
+      <div class="why-card"><h3>Развивает тело</h3><p>Координация, выносливость и скорость.</p></div>
+      <div class="why-card"><h3>Учит дисциплине</h3><p>Дети становятся увереннее и самостоятельнее.</p></div>
+      <div class="why-card"><h3>Командный дух</h3><p>Тренировки проходят в дружеской атмосфере.</p></div>
+      <div class="why-card"><h3>Интересные занятия</h3><p>Без скуки и давления.</p></div>
     </div>
-
   </div>
 </section>
 
 <section id="programm" class="program">
-
   <div class="container">
-
-    <div class="section-top">
-      <h2>НАША ПРОГРАММА</h2>
-      <p>Современный подход к детскому пятиборью.</p>
-    </div>
-
+    <div class="section-top"><h2>НАША ПРОГРАММА</h2><p>Современный подход к детскому пятиборью.</p></div>
     <div class="program-grid">
-
-      <div class="program-card">
-        <div class="program-image swimming"></div>
-        <h3>Плавание</h3>
-        <p>Техника, дыхание, уверенность в воде.</p>
-      </div>
-
-      <div class="program-card">
-        <div class="program-image running"></div>
-        <h3>Бег</h3>
-        <p>Скорость, координация и выносливость.</p>
-      </div>
-
-      <div class="program-card">
-        <div class="program-image fencing"></div>
-        <h3>Фехтование</h3>
-        <p>Реакция, тактика и концентрация.</p>
-      </div>
-
-      <div class="program-card">
-        <div class="program-image shooting"></div>
-        <h3>Стрельба</h3>
-        <p>Контроль, точность и спокойствие.</p>
-      </div>
-
+      <div class="program-card"><div class="program-image swimming"></div><h3>Плавание</h3><p>Техника, дыхание, уверенность в воде.</p></div>
+      <div class="program-card"><div class="program-image running"></div><h3>Бег</h3><p>Скорость, координация и выносливость.</p></div>
+      <div class="program-card"><div class="program-image fencing"></div><h3>Фехтование</h3><p>Реакция, тактика и концентрация.</p></div>
+      <div class="program-card"><div class="program-image shooting"></div><h3>Стрельба</h3><p>Контроль, точность и спокойствие.</p></div>
     </div>
-
   </div>
-
 </section>
 
 <section id="scheduleId" class="schedule">
-
   <div class="container schedule-grid">
-
-    <div class="schedule-box">
-      <h2>РАСПИСАНИЕ</h2>
-
-      <div class="schedule-item">
-        <span>Пятница</span>
-        <strong>14:00 - 16:00</strong>
-      </div>
-
-      <div class="schedule-item">
-        <span>Воскресенье</span>
-        <strong>14:00 - 15:00</strong>
-      </div>
-    </div>
-
-    <div id="price" class="price-box">
-
-      <h2>СТОИМОСТЬ</h2>
-
-      <div class="price-grid">
-
-        <div class="price-card">
-          <h3>4 занятие</h3>
-          <strong>2800 ₽</strong>
-        </div>
-
-        <div class="price-card active">
-          <h3>8 занятий</h3>
-          <strong>5600 ₽</strong>
-        </div>
-
-        <div class="price-card">
-          <h3>Разовое</h3>
-          <strong>700 ₽</strong>
-        </div>
-
-      </div>
-
-    </div>
-
+    <div class="schedule-box"><h2>РАСПИСАНИЕ</h2><div class="schedule-item"><span>Пятница</span><strong>14:00 - 16:00</strong></div><div class="schedule-item"><span>Воскресенье</span><strong>14:00 - 15:00</strong></div></div>
+    <div id="price" class="price-box"><h2>СТОИМОСТЬ</h2><div class="price-grid"><div class="price-card"><h3>4 занятия</h3><strong>2800 ₽</strong></div><div class="price-card active"><h3>8 занятий</h3><strong>5600 ₽</strong></div><div class="price-card"><h3>Разовое</h3><strong>700 ₽</strong></div></div></div>
   </div>
-
 </section>
 
 <section class="trainer">
-
   <div class="container trainer-grid">
-
     <div class="trainer-photo"></div>
-
     <div class="trainer-content">
-
       <h2>О ТРЕНЕРЕ</h2>
-
-      <p>
-    «Мягкая сила спорта: от страха воды до профессионального спорта»
-
-Меня зовут Морозов Иван, и моя главная гордость — это огромное количество детей, которые сначала боялись даже брызг, а затем уверенно поплыли. В своей работе я исповедую мягкий педагогический подход.
-
-Это не значит, что я требую мало. Это значит, что я умею слышать ребенка, не ломать его психику и превращать обучение в увлекательный процесс. Моя задача — мягко, но уверенно привести вашего ребенка от первых робких шагов на мелководье до уверенного поступления в спортивную школу.
-
-В современном пятиборье плавание — это фундамент победы. Я научу держаться на воде так, чтобы это стало естественным дыханием, а не борьбой за выживание. Со мной дети не боятся ошибок и ждут тренировок с радостью.
-      </p>
-
-      <ul>
-        <li>Индивидуальный подход</li>
-        <li>Безопасные тренировки</li>
-        <li>Развитие через интерес</li>
-        <li>Подготовка к соревнованиям</li>
-      </ul>
-
+      <p>«Мягкая сила спорта: от страха воды до профессионального спорта»</p>
+      <p>Меня зовут Морозов Иван, и моя главная гордость — это огромное количество детей, которые сначала боялись даже брызг, а затем уверенно поплыли. В своей работе я исповедую мягкий педагогический подход.</p>
+      <p>Это не значит, что я требую мало. Это значит, что я умею слышать ребенка, не ломать его психику и превращать обучение в увлекательный процесс. Моя задача — мягко, но уверенно привести вашего ребенка от первых робких шагов на мелководье до уверенного поступления в спортивную школу.</p>
+      <p>В современном пятиборье плавание — это фундамент победы. Я научу держаться на воде так, чтобы это стало естественным дыханием, а не борьбой за выживание. Со мной дети не боятся ошибок и ждут тренировок с радостью.</p>
+      <ul><li>Индивидуальный подход</li><li>Безопасные тренировки</li><li>Развитие через интерес</li><li>Подготовка к соревнованиям</li></ul>
       <a href="#" class="btn">ЗАПИСАТЬСЯ</a>
-
     </div>
-
   </div>
-
 </section>
 
 <footer class="footer">
-
   <div class="container footer-grid">
-
-    <div>
-      <h3>ПЯТИБОРЬЕ KIDS</h3>
-      <p>Современные тренировки для детей.</p>
-    </div>
-
-    <div>
-      <h3>КОНТАКТЫ</h3>
-      <p>+7 (939) 467-53-06</p>
-    </div>
-
-    <div id="contactsId" class="contacts">
-      <h3>СОЦСЕТИ</h3>
-      <a href="https://t.me/everythingbeok">Telegram</a>
-      <a href="https://max.ru/+79394675306">Max</a>
-    </div>
-
+    <div><h3>ПЯТЬ ПОБЕД</h3><p>Современные тренировки для детей.</p></div>
+    <div><h3>КОНТАКТЫ</h3><p>+7 (939) 467-53-06</p></div>
+    <div id="contactsId" class="contacts"><h3>СОЦСЕТИ</h3><a href="https://t.me/everythingbeok">Telegram</a><a href="https://max.ru/+79394675306">Max</a></div>
   </div>
-
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
