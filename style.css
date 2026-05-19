@@ -11,6 +11,10 @@ body{
   color:#fff;
 }
 
+a{
+  text-decoration: none;
+}
+
 .container{
   width:min(1280px,92%);
   margin:auto;
@@ -20,7 +24,7 @@ body{
   position:sticky;
   top:0;
   z-index:1000;
-  background:#07111d;
+  background:#fff;
   border-bottom:1px solid rgba(255,255,255,0.08);
 }
 
@@ -34,7 +38,10 @@ body{
 .logo{
   display:flex;
   align-items:center;
-  gap:14px;
+}
+
+.logo img{
+  width: 50%;
 }
 
 .shield{
@@ -63,7 +70,7 @@ body{
 }
 
 .nav a{
-  color:#fff;
+  color:#000;
   text-decoration:none;
   font-size:14px;
   font-weight:600;
@@ -250,11 +257,11 @@ h2{
 }
 
 .fencing{
-  background-image:url('https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1200&auto=format&fit=crop');
+  background-image:url('/assets/two_fencer-Photoroom.png');
 }
 
 .shooting{
-  background-image:url('https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1200&auto=format&fit=crop');
+  background-image:url('/assets/55275783446_ac83e73ae9_o.jpg');
 }
 
 .program-card h3,
@@ -326,7 +333,7 @@ h2{
 .trainer-photo{
   height:600px;
   border-radius:30px;
-  background:url('https://images.unsplash.com/photo-1566753323558-f4e0952af115?q=80&w=1200&auto=format&fit=crop') center/cover;
+  background:url('./assets/2019-04-04\ 10-24-29.JPG') center/cover;
 }
 
 .trainer-content p{
@@ -405,4 +412,14 @@ grid-template-columns:1fr;
 flex-direction:column;
 }
 
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts a{
+  margin-bottom: 5%;
+  color:#fff;
 }
