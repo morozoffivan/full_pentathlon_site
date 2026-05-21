@@ -1,0 +1,16 @@
+User-agent: *
+
+Allow: /
+
+Disallow: /tilda/
+Disallow: /api/
+Disallow: /projects/
+Disallow: /members/
+Disallow: /payment/
+Disallow: /cart/
+Disallow: /*?*
+Disallow: /404
+
+Host: fivewins.ru
+
+Sitemap: https://fivewins.ru/sitemap.xml
